@@ -9,6 +9,6 @@ def get_length(num):
         int: the number of digits
     """
     # return number of digits in integer
-    return 
+    return len(str(num))
 
- 
+print(get_length(324))
